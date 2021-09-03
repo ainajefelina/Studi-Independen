@@ -4,6 +4,7 @@ print("2, Segi Tiga")
 print("3, Persegi")
 print("4, Lingkaran")
 pilihan = int(input("Masukan Pilihan Anda, eg. 1, 2, dst"))
+
 if pilihan == 1:
     panjang = input (" Masukan Variable Panjang")
     lebar = input ("Masukan Variable Lebar")
@@ -13,6 +14,7 @@ if pilihan == 1:
     print("Lebar Segiempat =", lebar)
     print("Keliling Segiempat =", KelilingSegiempat)
     print("Luas Segiempat =", LuasSegiempat)
+
 elif pilihan == 2:
     alas = input (" Masukan Variable Alas")
     tinggi = input ("Masukan Variable Tinggi")
@@ -25,6 +27,7 @@ elif pilihan == 2:
     print("Tinggi Segitiga =", tinggi)
     print("Luas Segitiga =", LuasSegitiga)
     print("Keliling Segitiga=", KelilingSegitiga)
+
 elif pilihan == 3:
     PanjangSisi= input (" Masukan Variable Panjang Sisi")
     KelilingPersegi = 4*int(PanjangSisi)
@@ -32,6 +35,7 @@ elif pilihan == 3:
     print("PanjangSisi =", PanjangSisi)
     print("Luas Persegi =", LuasPersegi)
     print("Keliling Persegi =", KelilingPersegi)
+
 elif pilihan == 4:
     JariJari= input ("Masukan Variable Jari - Jari")
     LuasLingkaran = float(22/7)*int(JariJari)
@@ -39,5 +43,6 @@ elif pilihan == 4:
     print("Jari - jari =", JariJari)
     print("Luas Lingkaran=", LuasLingkaran)
     print("Keliling Lingkaran=", KelilingLingkaran)
+    
 else :
     print ("Belum Tersedia")
