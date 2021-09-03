@@ -11,16 +11,16 @@ while ulang == "Y" or ulang == "y":
     pilihan= int(input("Masukan Pilihan Anda = "))
     
     if pilihan==1:
-        b2d.segiempat()
+        bentuk2d.segiempat()
     
     elif pilihan ==2:
-        b2d.Segitiga()
+        bentuk2d.Segitiga()
         
     elif pilihan ==3:
-        b2d.Persegi()
+        bentuk2d.Persegi()
     
     elif pilihan ==4:
-        b2d.Lingkaran()
+        bentuk2d.Lingkaran()
         
     else:
         print("Pilihan belum Tersedia")
