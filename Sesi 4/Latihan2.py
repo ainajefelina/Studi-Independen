@@ -1,4 +1,4 @@
-import bentuk3d
+import bentuk3d as b3d
 
 print("Perhitungan 3 dimensi")
 print("1, Kubus")
@@ -8,19 +8,19 @@ print("4, Tabung")
 
 ulang = "Y"
 while ulang == "Y" or ulang == "y":
-
     pilihan = int(input("Masukan Pilihan Anda = "))
+    
     if pilihan == 1:
-        bentuk3d.kubus()
+        b3d.kubus()
     
     elif pilihan == 2:
-        bentuk3d.balok()
+        b3d.balok()
     
     elif pilihan == 3:
-        bentuk3d.bola()
+        b3d.bola()
 
     elif pilihan == 4:
-        bentuk3d.tabung()
+        b3d.tabung()
 
     else:
         print("Pilihan anda salah")

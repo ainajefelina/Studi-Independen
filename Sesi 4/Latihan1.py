@@ -11,7 +11,7 @@ while ulang == "Y" or ulang == "y":
     pilihan= int(input("Masukan Pilihan Anda = "))
     
     if pilihan==1:
-        bentuk2d.segiempat()
+        bentuk2d.Segiempat()
     
     elif pilihan ==2:
         bentuk2d.Segitiga()
